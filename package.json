@@ -1,0 +1,13 @@
+{
+  "name": "react-auto-maker",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "make-react": "./commands/createReact.js",
+    "make-route": "./commands/makeRoute.js",
+    "make-component": "./commands/makeComponent.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
